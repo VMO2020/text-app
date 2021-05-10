@@ -85,10 +85,10 @@ const App = () => {
 					>{`${limit}`}</span>
 				</p>
 				<div className='btn-box'>
-					<button className='btn-text' onClick={handleCopy}>
+					<button className='btn-click' onClick={handleCopy}>
 						<Icon1 /> COPY
 					</button>
-					<button className='btn-text' onClick={handleClick}>
+					<button className='btn-click' onClick={handleClick}>
 						<Icon2 /> DELETE
 					</button>
 				</div>
