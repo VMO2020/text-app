@@ -86,10 +86,12 @@ const App = () => {
 				</p>
 				<div className='btn-box'>
 					<button className='btn-click' onClick={handleCopy}>
-						<Icon1 /> COPY
+						<Icon1 />
+						<span>COPY</span>
 					</button>
 					<button className='btn-click' onClick={handleClick}>
-						<Icon2 /> DELETE
+						<Icon2 />
+						<span>DELETE</span>
 					</button>
 				</div>
 			</div>

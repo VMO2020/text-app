@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3235892.chunk.css",
-    "main.js": "/static/js/main.ace53c65.chunk.js",
-    "main.js.map": "/static/js/main.ace53c65.chunk.js.map",
+    "main.css": "/static/css/main.d54526bf.chunk.css",
+    "main.js": "/static/js/main.44905c42.chunk.js",
+    "main.js.map": "/static/js/main.44905c42.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c76f1477.js",
     "runtime-main.js.map": "/static/js/runtime-main.c76f1477.js.map",
     "static/js/2.b7a5e595.chunk.js": "/static/js/2.b7a5e595.chunk.js",
     "static/js/2.b7a5e595.chunk.js.map": "/static/js/2.b7a5e595.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e3235892.chunk.css.map": "/static/css/main.e3235892.chunk.css.map",
+    "static/css/main.d54526bf.chunk.css.map": "/static/css/main.d54526bf.chunk.css.map",
     "static/js/2.b7a5e595.chunk.js.LICENSE.txt": "/static/js/2.b7a5e595.chunk.js.LICENSE.txt",
-    "static/media/copy.d3392f9f.svg": "/static/media/copy.d3392f9f.svg",
-    "static/media/delete.d65be349.svg": "/static/media/delete.d65be349.svg",
+    "static/media/copy.ce08f224.svg": "/static/media/copy.ce08f224.svg",
+    "static/media/delete.552c1758.svg": "/static/media/delete.552c1758.svg",
     "static/media/facebook.9bf6907a.svg": "/static/media/facebook.9bf6907a.svg",
     "static/media/twitter.e1986d50.svg": "/static/media/twitter.e1986d50.svg",
     "static/media/whatsapp.6401e7c0.svg": "/static/media/whatsapp.6401e7c0.svg"
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c76f1477.js",
     "static/js/2.b7a5e595.chunk.js",
-    "static/css/main.e3235892.chunk.css",
-    "static/js/main.ace53c65.chunk.js"
+    "static/css/main.d54526bf.chunk.css",
+    "static/js/main.44905c42.chunk.js"
   ]
 }
