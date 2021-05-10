@@ -42,6 +42,7 @@
 		h1 {
 			@include font-size(28px, 46px);
 			margin-bottom: 0.5em;
+			text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 		}
 
 		.limit-selector {
