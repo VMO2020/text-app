@@ -36,14 +36,16 @@
 
 .btn-click {
 	@include font-size(16px, 24px);
+	@include button-click($mainColor, $Light);
 	margin: 0em 1em 1em;
-	padding: 0 1em;
-	color: white;
+	padding: 0.2em 1em;
+	color: $Light;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	background: $mainColor;
+	background: $mainMDark;
 	box-shadow: $btn-shadow;
-	border: 2px solid white;
+	// border: 2px solid white;
 	border-radius: 4px;
 	outline: none;
 	cursor: pointer;
@@ -51,26 +53,9 @@
 	z-index: 300;
 
 	svg {
-		@include size(22px, 36px, 1, 1);
+		@include size(28px, 36px, 1, 1);
 		margin-right: 0.8em;
 		fill: white;
-	}
-
-	&:active {
-		transform: scale(0.8);
-		background: $Dark;
-		box-shadow: $btn-shadow-click;
-	}
-}
-
-// btn-click for Desktop
-@include mQ(1200px) {
-	.btn-click {
-		padding: 0.2em 1em;
-		&:hover {
-			transform: scale(1.05);
-			background: $Dark;
-		}
 	}
 }
 

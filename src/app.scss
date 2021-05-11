@@ -105,6 +105,10 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		.delete {
+			background-color: $Danger;
+		}
 	}
 }
 

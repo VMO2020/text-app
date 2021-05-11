@@ -89,7 +89,7 @@ const App = () => {
 						<Icon1 />
 						<span>COPY</span>
 					</button>
-					<button className='btn-click' onClick={handleClick}>
+					<button className='btn-click delete' onClick={handleClick}>
 						<Icon2 />
 						<span>DELETE</span>
 					</button>

@@ -106,6 +106,28 @@
 	}
 }
 
+@mixin button-click($bg, $cl) {
+	&:active {
+		transform: scale(0.8);
+		background: $bg;
+		box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.5);
+		color: $cl;
+	}
+
+	// Desktop
+	@include mQ(1200px) {
+		&:hover {
+			transform: scale(1.05);
+			background: $bg;
+			color: $cl;
+		}
+		&:active {
+			transform: scale(0.9);
+			box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.5);
+		}
+	}
+}
+
 // Image & Cards RESPONSIVE Size, with optional aspect ratio --------------------------------
 // (minWidth, maxWidth, widthRatio (Optional), heightRatio (Optional))
 @mixin size($args...) {

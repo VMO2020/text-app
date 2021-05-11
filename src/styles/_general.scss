@@ -8,10 +8,13 @@ $MedDark: #393e46; // My Dark Gray: rgb(57,62,70)
 $MedLight: #8e8e90; // My Gray: Silver: rgb(142,142,144)
 $Light: #f7f7f7; // My White:(247,247,247)
 $Amazon: #ff9900;
+$Danger: rgb(255, 59, 48); // Apple System Red Light
 
 // COLORS FIXED
-$mainColor: rgba(255, 0, 0, 0.6);
-$mainDark: red;
+$mainDark: hsl(210, 100%, 42%);
+$mainMDark: hsl(210, 100%, 52%); // Apple System Blue Dark
+$mainColor: hsl(210, 100%, 62%);
+$mainLight: hsl(210, 100%, 71%);
 $background: rgba(255, 255, 255, 0.7);
 
 // SHADOWS
