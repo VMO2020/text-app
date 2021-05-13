@@ -19,6 +19,21 @@
 		left: 50%;
 		transform: translateX(-50%);
 		width: 600px;
+		text-align: center;
+		z-index: 90;
+	}
+
+	a.copyright {
+		@include font-size(14px, 24px);
+		position: absolute;
+		left: 50%;
+		bottom: 1em;
+		transform: translateX(-50%);
+		color: $Dark;
+		text-decoration: none;
+		cursor: pointer;
+		width: 100%;
+		text-align: center;
 		z-index: 90;
 	}
 

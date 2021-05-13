@@ -95,6 +95,14 @@ const App = () => {
 					</button>
 				</div>
 			</div>
+			<a
+				className='copyright'
+				href='https://vmog.net/'
+				target='_blank'
+				rel='noreferrer'
+			>
+				Copyright © and web design by VMOG
+			</a>
 		</div>
 	);
 };
