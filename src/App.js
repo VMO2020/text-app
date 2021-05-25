@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { Share } from './components/Share';
 
 // Icons
-import { ReactComponent as Icon1 } from './icons/copy.svg';
-import { ReactComponent as Icon2 } from './icons/delete.svg';
+import { ReactComponent as Icon1 } from './assets/icons/copy.svg';
+import { ReactComponent as Icon2 } from './assets/icons/delete.svg';
 
 // Styles
 import './app.scss';
@@ -85,11 +85,11 @@ const App = () => {
 					>{`${limit}`}</span>
 				</p>
 				<div className='btn-box'>
-					<button className='btn-click' onClick={handleCopy}>
+					<button className='btn__click' onClick={handleCopy}>
 						<Icon1 />
 						<span>COPY</span>
 					</button>
-					<button className='btn-click delete' onClick={handleClick}>
+					<button className='btn__click delete' onClick={handleClick}>
 						<Icon2 />
 						<span>DELETE</span>
 					</button>
