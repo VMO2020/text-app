@@ -24,6 +24,11 @@ $btn-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 $btn-shadow-click: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
 // GENERAL SCSS
+html {
+	scroll-behavior: smooth;
+	scroll-padding: 90px;
+}
+
 body {
 	margin: 0 auto;
 	padding: 0;

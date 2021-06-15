@@ -101,7 +101,7 @@ const App = () => {
 				target='_blank'
 				rel='noreferrer'
 			>
-				Copyright © and web design by VMOG
+				Copyright and web design by © VMOG
 			</a>
 		</div>
 	);
