@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300;400;700&display=swap');
+
 // RESPONSIVE (VIEWPORT SIZES)
 $minWidth: 600px !default;
 $maxWidth: 1200px !default;
@@ -24,15 +26,18 @@ $btn-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 $btn-shadow-click: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
 // GENERAL SCSS
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 html {
 	scroll-behavior: smooth;
 	scroll-padding: 90px;
 }
 
 body {
-	margin: 0 auto;
-	padding: 0;
-	box-sizing: border-box;
 	width: 100%;
 	max-width: $maxWidth;
 	height: 100%;
